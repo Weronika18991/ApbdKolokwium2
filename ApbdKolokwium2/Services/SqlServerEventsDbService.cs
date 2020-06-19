@@ -64,7 +64,7 @@ namespace ApbdKolokwium2.Services
                 throw new ArtistDoesNotParticipateInAnEventException($"Artist with an id {idArtist} does not participate in an event with an id {idEvent}");
             }
 
-            if (DateTime.Compare(DateTime.Now, anEvent.StartDate) > 0)
+            if (DateTime.Compare(anEvent.StartDate,DateTime.Now) > 0)
             {
                 throw new EventAlreadyBegunException("An event has already begun");
             }
