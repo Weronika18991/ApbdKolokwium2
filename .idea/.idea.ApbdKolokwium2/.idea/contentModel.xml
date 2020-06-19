@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Weronika\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Weronika\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ApbdKolokwium2.-634096618.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Weronika\Desktop\ApbdKolokwium2\ApbdKolokwium2" t="IncludeFlat">
+      <e p="ApbdKolokwium2" t="IncludeRecursive">
+        <e p="ApbdKolokwium2.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ArtistsController.cs" t="Include" />
+        </e>
+        <e p="DTOs" t="Include">
+          <e p="Requests" t="Include">
+            <e p="UpdateArtistPerformanceTimeRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="GetArtistResponse.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="ArtistDoesNotExistsException.cs" t="Include" />
+          <e p="ArtistDoesNotParticipateInAnEventException.cs" t="Include" />
+          <e p="EventAlreadyBegunException.cs" t="Include" />
+          <e p="EventDoesNotExistsException.cs" t="Include" />
+          <e p="IncorrectTimeException.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200619111708_AddTables.cs" t="Include" />
+          <e p="20200619111708_AddTables.Designer.cs" t="Include" />
+          <e p="20200619114443_SeedData.cs" t="Include" />
+          <e p="20200619114443_SeedData.Designer.cs" t="Include" />
+          <e p="EventDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Artist.cs" t="Include" />
+          <e p="ArtistEvent.cs" t="Include" />
+          <e p="Event.cs" t="Include" />
+          <e p="EventDbContext.cs" t="Include" />
+          <e p="EventOrganiser.cs" t="Include" />
+          <e p="Organiser.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ApbdKolokwium2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IEventsDbService.cs" t="Include" />
+          <e p="SqlServerEventsDbService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="ApbdKolokwium2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
